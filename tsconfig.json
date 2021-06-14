@@ -1,0 +1,62 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es6",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "allowJs": true,
+    "baseUrl": "./",
+    "incremental": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "paths": {
+      "@ultimatebackend/core": [
+        "libs/core/src"
+      ],
+      "@ultimatebackend/core/*": [
+        "libs/core/src/*"
+      ],
+      "@ultimatebackend/common": [
+        "libs/common/src"
+      ],
+      "@ultimatebackend/common/*": [
+        "libs/common/src/*"
+      ],
+      "@ultimatebackend/repository": [
+        "libs/repository/src"
+      ],
+      "@ultimatebackend/repository/*": [
+        "libs/repository/src/*"
+      ],
+      "@juicycleff/repo-orm": [
+        "libs/repo-orm/src"
+      ],
+      "@juicycleff/repo-orm/*": [
+        "libs/repo-orm/src/*"
+      ],
+      "@ultimatebackend/contracts": [
+        "libs/contracts/src"
+      ],
+      "@ultimatebackend/contracts/*": [
+        "libs/contracts/src/*"
+      ],
+      "@ultimatebackend/proto-schema": [
+        "libs/proto-schema/src"
+      ],
+      "@ultimatebackend/proto-schema/*": [
+        "libs/proto-schema/src/*"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ],
+  "files": [
+    "definitions/type.d.ts"
+  ]
+}
